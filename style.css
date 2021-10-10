@@ -1,0 +1,54 @@
+body {
+  /* background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1440' height='437'><path fill='#D6E1FF' fill-rule='evenodd' d='M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z'/></svg>"); */
+  background: hsl(225, 100%, 94%);
+  text-align: center;
+}
+
+.card {
+  border: black;
+  margin: auto;
+  width: 25%;
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 25px;
+  background: hsl(225, 100%, 98%);
+}
+
+.price-column {
+  border: 3px solid white;
+  background: #e1e5ea;
+  border-radius: 25px;
+}
+
+.price-left {
+  float: left;
+  margin: 10px 0 0 35px;
+}
+
+.price-right {
+  float: right;
+  margin: 20px;
+}
+
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+p {
+  color: grey;
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+}
